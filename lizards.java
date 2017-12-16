@@ -500,19 +500,3 @@ public class lizards {
 		printNursery(result);
 	}
 }
-
-class nodes {
-	private int [][] state;
-	
-	public nodes(int [][] problem) {
-		 this.state = problem;
-	}
-	
-	public int [][] getNursery () {
-		return this.state;
-	}
-	
-	public void setNursery(int x, int y, int value) {
-		state[x][y] = value;
-	}
-}
