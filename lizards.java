@@ -4,7 +4,7 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.*;
 
-public class homework {
+public class lizards {
 	private static String algo; 
 	private static int n,p;
 	private int liz_count = 0;
@@ -480,7 +480,7 @@ public class homework {
 			e.printStackTrace();
 		}
 		
-		homework soln = new homework();
+		lizards soln = new lizards();
 		boolean result = false;
 		if (algo.equals("DFS")) {
 			result = soln.solve();
